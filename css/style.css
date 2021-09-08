@@ -453,3 +453,31 @@ h6 {
   font-style: italic;
   color: #848789;
 }
+
+.shop__body {
+  display: flex;
+}
+
+.shop__column {
+  flex: 0 1 16.666%;
+}
+
+.shop__column--b {
+  flex: 0 1 33.333%;
+}
+
+.block-shop {
+  height: 100%;
+}
+
+.block-shop__row {
+  display: flex;
+}
+
+.block-shop__column {
+  flex: 0 1 50%;
+}
+
+.block-shop__item__item--b {
+  padding: 0px 0px 200.5% 0px;
+}
